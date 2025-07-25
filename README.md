@@ -1,2 +1,2 @@
-# media-nest-backend
+# Media-nest-backend
 MediaNest Backend API
