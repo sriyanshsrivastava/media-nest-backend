@@ -19,4 +19,8 @@ public class WallpaperService {
     public List<Wallpapers> getAllWallpapers(){
         return wallpaperRepo.findAll();
     }
+
+    public Wallpapers getWallpaperById(Long id){
+        return wallpaperRepo.findById(id).orElse(null);
+    }
 }
